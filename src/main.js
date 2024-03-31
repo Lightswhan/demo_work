@@ -3,12 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import Router from "vue-router";
+import Calendar from 'vant';
 
 
 import Element from "element-ui";
 import 'element-ui/lib/theme-chalk/index.css'
 
 import router from './router'
+
+//import Calendar from 'vue-calendar-component'
 
 
 import Vant from 'vant'
@@ -25,6 +28,7 @@ Vue.config.productionTip = false
 
 Vue.use(Vant);
 Vue.use(Element);
+Vue.use(Calendar);
 
 const originalPush = Router.prototype.push
 Router.prototype.push = function push (location) {

@@ -63,8 +63,8 @@ export default {
           this.$router.push('/productionMain')
           this.$bus.$emit("toProductionMonitor")
       } else if (e.value === 'formManagement'){
-         // this.$router.push('/formManagementMain')
-          //this.$bus.$emit('toFormManagement')
+          this.$router.push('/formManagement')
+          this.$bus.$emit('toFormManagement')
       }
     }
   }

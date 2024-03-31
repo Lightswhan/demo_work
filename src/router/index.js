@@ -45,7 +45,7 @@ const routes = [
     name: 'compare',
     component: () => import('../production-line/production-line-compare/index')
   },
-  // 设备管理
+  // 设备监控
   {
     path: '/deviceDetail',
     name: 'deviceDetail',
@@ -61,7 +61,7 @@ const routes = [
   {
     path:'/formManagement',
     name:'formManagement',
-    component: ()=>import('../form/')
+   component: ()=>import('../formManagement/index')
   }
 
 
