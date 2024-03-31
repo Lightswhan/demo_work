@@ -20,15 +20,17 @@
       <div style="margin-top: 56px;margin-bottom: 49px;height: 100%">
   <!--      <select-line></select-line>-->
   <!--      <show-device></show-device>-->
-  <van-calendar
-     ref="calendars"
-     :poppable="false"
-     :show-confirm="false"
-     :style="{ height: '450px' }"
-     :formatter="formatter"
+       <van-calendar
+          ref="calendars"
+          :poppable="false"
+          :show-confirm="false"
+          :style="{ height: '450px' }"
+          :formatter="formatter"
+          color="#3399ff"
+         >
+       </van-calendar>
    
-   >
-   </van-calendar>
+
       </div>
     </div>
     
@@ -43,7 +45,7 @@
   <script>
  
  //import Calendar from 'vue-calendar-component';
- import { ref } from 'vue';
+ import ref from 'vue';
  import Calendar from 'vant';
 
   export default {
